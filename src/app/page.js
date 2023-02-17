@@ -18,10 +18,10 @@ export default function Home() {
             <a className="atag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabriel-dayot-6a60071b2/"> <FontAwesomeIcon icon={faGithub} className="ps-2" width="27px"/> </a>
           </div>
           <span className="text-white">
-            I'm a <span className="lastName">Fullstack web developer </span>with expertise in both Frontend and Backend development.
+            I&apos;m a <span className="lastName">Fullstack web developer </span>with expertise in both Frontend and Backend development.
             I create responsive and user-friendly websites and web applications using ReactJS and Laravel frameworks.
-            I'm passionate about problem-solving and delivering high-quality projects on time and within budget,
-            and I'm always eager to learn and stay up-to-date with the latest industry trends.
+            I&apos;m passionate about problem-solving and delivering high-quality projects on time and within budget,
+            and I&apos;m always eager to learn and stay up-to-date with the latest industry trends.
             Helping clients bring their visions to life on the web is my source of pride.</span>
           <br/>
           <br/>
