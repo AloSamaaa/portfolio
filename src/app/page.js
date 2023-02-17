@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main>
-      <div className="container pt-lg-5 mt-lg-5 pb-5 mb-5">
-        <div className="p-5 m-lg-5 col-md-6 card1">
+      <div className="container-fluid pt-lg-5 mt-lg-5 pb-5 mb-5 pt-3 mt-3">
+        <div className="p-lg-5 p-4 m-lg-5 col-md-6 card1">
           <h3 className="fw-bold text-white">Gabriel Angelo <span className="lastName">D. Dayot</span></h3>
           <span className="text-secondary">Fullstack Web Developer</span>
           <div className="text-white mt-2 mb-3">
@@ -18,10 +18,11 @@ export default function Home() {
             <a className="atag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabriel-dayot-6a60071b2/"> <FontAwesomeIcon icon={faGithub} className="ps-2" width="27px"/> </a>
           </div>
           <span className="text-white">
-            As a <span className="lastName">Fullstack web developer</span>, I&apos;m passionate about creating beautiful and functional web applications.
-            I take pride in my work and enjoy facing the challenges that come with building great software.
-            With each new project, I bring a creative and innovative approach, leveraging my skills and experience
-            to deliver quality solutions that exceed expectations.</span>
+            I'm a <span className="lastName">Fullstack web developer </span>with expertise in both Frontend and Backend development.
+            I create responsive and user-friendly websites and web applications using ReactJS and Laravel frameworks.
+            I'm passionate about problem-solving and delivering high-quality projects on time and within budget,
+            and I'm always eager to learn and stay up-to-date with the latest industry trends.
+            Helping clients bring their visions to life on the web is my source of pride.</span>
           <br/>
           <br/>
         </div>

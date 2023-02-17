@@ -73,3 +73,15 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+@media (max-width: 767px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+  .navbar-expand-lg .navbar-brand {
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
