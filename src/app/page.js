@@ -13,9 +13,9 @@ export default function Home() {
           <h3 className="fw-bold text-white">Gabriel Angelo D. Dayot</h3>
           <span className="text-secondary pe-4">Fullstack Web Developer</span>
           <span className="text-white">
-            <a className="atag" target="_blank" href="https://www.facebook.com/profile.php?id=100088506030945"> <FontAwesomeIcon icon={faFacebook} className="ps-2" width="27px"/> </a>
-            <a className="atag" target="_blank" href="https://github.com/AloSamaaa"> <FontAwesomeIcon icon={faLinkedin} className="ps-2" width="27px"/> </a>
-            <a className="atag" target="_blank" href="https://www.linkedin.com/in/gabriel-dayot-6a60071b2/"> <FontAwesomeIcon icon={faGithub} className="ps-2" width="27px"/> </a>
+            <a className="atag" target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100088506030945"> <FontAwesomeIcon icon={faFacebook} className="ps-2" width="27px"/> </a>
+            <a className="atag" target="_blank" rel="noreferrer" href="https://github.com/AloSamaaa"> <FontAwesomeIcon icon={faLinkedin} className="ps-2" width="27px"/> </a>
+            <a className="atag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabriel-dayot-6a60071b2/"> <FontAwesomeIcon icon={faGithub} className="ps-2" width="27px"/> </a>
           </span>
           <br/>
           <br/>
