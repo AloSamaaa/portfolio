@@ -24,7 +24,7 @@ body {
   height: 3px;
   bottom: -2px;
   left: 0;
-  background-color: #ffffff;
+  background-color: #d4af37;
   transition: 0.3s;
 }
 
@@ -53,5 +53,11 @@ body {
 }
 
 .atag:hover {
-  color: rgb(104, 104, 104)
+  color: #d4af37;
+}
+
+.lastName {
+  background: linear-gradient(to bottom, #d4af37, #73725a);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

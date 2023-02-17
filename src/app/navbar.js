@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg pt-5 bg-transparent">
       <div className="container">
         <a className="navbar-brand text-white ps-3 ms-lg-5 fw-bold" href="/">
-            Gabriel Dayot
+            Gabriel <span className="lastName">Dayot</span>
         </a>
         <button
           className="navbar-toggler me-3"
