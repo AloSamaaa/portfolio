@@ -86,17 +86,18 @@ body {
   }
 }
 
-.profile{
-  filter: 
-  brightness(75%) 
-  hue-rotate(10deg) 
-  saturate(160%) 
-  grayscale(11%) 
-  sepia(23%) ; 
-}
-
 hr {
   border: none;
   border-top: 3px solid #ffffff; /* set border width to 4px and color to #ccc */
   margin: 1em 0; /* add some margin top and bottom */
+}
+
+.profile {
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0 #d4af37;
+} 
+
+.imgprof{
+  padding-left: 190px;
+  padding-top: 50px;
 }

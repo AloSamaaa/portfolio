@@ -7,9 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
     <main>
-      <div className="container-fluid pt-lg-5 mt-lg-5 pt-3 mt-3">
+      <div className="container pt-lg-5 mt-lg-5 pt-3 mt-3">
         <div className="row">
-          <div className="ps-lg-5 pt-lg-5 p-4 ms-lg-5 mt-lg-5 col-md-6">
+          <div className="ps-lg-3 pt-lg-5 p-4 ms-lg-5 mt-lg-3 col-md-6">
             <h3 className="fw-bold text-white">Gabriel Angelo <span className="lastName">D. Dayot</span></h3>
             <span className="text-secondary">Fullstack Web Developer</span>
             <div className="text-white mt-2 mb-3">
@@ -26,8 +26,8 @@ export default function Home() {
             <br />
             <br />
           </div>
-          <div className="col-md-4 d-none d-sm-block">
-            <img className="profile" src="/profile.png"></img>
+          <div className="col-md-4 d-none d-sm-block imgprof">
+            <img className="profile" src="/profile.jpeg" width="350px"></img>
           </div>
         </div>
       </div>
