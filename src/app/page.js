@@ -20,7 +20,7 @@ export default function Home() {
           <br/>
           <br/>
           <span className="text-white">
-            As a fullstack web developer, I'm passionate about creating beautiful and functional web applications.
+            As a fullstack web developer, I&apos;m passionate about creating beautiful and functional web applications.
             I take pride in my work and enjoy facing the challenges that come with building great software.
             With each new project, I bring a creative and innovative approach, leveraging my skills and experience
             to deliver quality solutions that exceed expectations</span>
