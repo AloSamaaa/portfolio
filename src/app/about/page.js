@@ -1,8 +1,10 @@
 const About = () => {
     return (
-        <div>
-            about
-        </div>
+        <main>
+            <div>
+                about
+            </div>
+        </main>
     );
 }
 export default About  ;

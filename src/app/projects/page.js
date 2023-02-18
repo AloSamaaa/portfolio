@@ -1,8 +1,10 @@
 const Projects = () => {
     return (
-        <div>
-            Projects
-        </div>
+        <main>
+            <div>
+                Projects
+            </div>
+        </main>
     );
 }
 export default Projects  ;

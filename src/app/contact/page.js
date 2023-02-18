@@ -1,8 +1,10 @@
 const Contact = () => {
     return (
-        <div>
-            Contact
-        </div>
+       <main>
+            <div>
+                Contact
+            </div>
+        </main>
     );
 }
 export default Contact  ;
