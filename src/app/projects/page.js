@@ -1,10 +1,10 @@
 const Projects = () => {
     return (
-        <main>
+        <section className="soa">
             <div>
                 Projects
             </div>
-        </main>
+        </section>
     );
 }
 export default Projects  ;

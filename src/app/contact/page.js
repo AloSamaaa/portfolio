@@ -1,10 +1,10 @@
 const Contact = () => {
     return (
-       <main>
+       <section className="soa">
             <div>
                 Contact
             </div>
-        </main>
+        </section>
     );
 }
 export default Contact  ;

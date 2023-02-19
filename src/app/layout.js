@@ -1,4 +1,3 @@
-
 import './globals.css';
 import './bg.css';
 import Navbar from './navbar.js';
@@ -6,6 +5,7 @@ import Footer from './footer.js';
 
 
 export default function RootLayout({ children }) {
+  
   return (
     <html lang="en">
       

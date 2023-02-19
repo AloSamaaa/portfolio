@@ -1,10 +1,10 @@
 const About = () => {
     return (
-        <main>
+        <section className="soa">
             <div>
                 about
             </div>
-        </main>
+        </section>
     );
 }
 export default About  ;

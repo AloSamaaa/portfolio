@@ -1,21 +1,20 @@
-import { Inter } from '@next/font/google'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Home() {
+
+ 
   return (
-    <main>
+    <section className="soa">
       <div className="container pt-lg-5 mt-lg-5 pt-3 mt-3 mb-5 pb-5">
         <div className="row">
-          <div className="ps-lg-3 pt-lg-5 p-4 ms-lg-5 mt-lg-3 col-md-6">
+          <div className="pt-lg-5 p-4 mt-lg-3 col-md-6 pe-5 me-5">
             <h3 className="fw-bold text-white">Gabriel Angelo <span className="lastName">D. Dayot</span></h3>
             <span className="text-secondary">Fullstack Web Developer</span>
             <div className="text-white mt-2 mb-3">
-              <a className="atag" target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100088506030945"> <FontAwesomeIcon icon={faFacebook} className="ps-2" width="27px" /> </a>
-              <a className="atag" target="_blank" rel="noreferrer" href="https://github.com/AloSamaaa"> <FontAwesomeIcon icon={faLinkedin} className="ps-2" width="27px" /> </a>
-              <a className="atag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabriel-dayot-6a60071b2/"> <FontAwesomeIcon icon={faGithub} className="ps-2" width="27px" /> </a>
+              <a className="atag" target="_blank" rel="noreferrer" href="https://www.facebook.com/profile.php?id=100088506030945"> <FontAwesomeIcon icon={faFacebook} className="ps-2" width="30px" /> </a>
+              <a className="atag" target="_blank" rel="noreferrer" href="https://github.com/AloSamaaa"> <FontAwesomeIcon icon={faLinkedin} className="ps-2" width="30px" /> </a>
+              <a className="atag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabriel-dayot-6a60071b2/"> <FontAwesomeIcon icon={faGithub} className="ps-2" width="30px" /> </a>
             </div>
             <span className="text-white">
               I&apos;m a <span className="lastName">Fullstack web developer </span>with expertise in both Frontend and Backend development.
@@ -31,6 +30,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </section>
   )
 }
