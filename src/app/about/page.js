@@ -6,7 +6,7 @@ const About = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-md-6 mt-5 d-flex justify-content-center">
-                        <img src="/aboutme.jpg" height="500"></img>
+                        <Image src="/aboutme.jpg" height="500"/>
                     </div>
                     <div className="text-start text-white mt-5 pt-5 col-md-4 mb-5 pb-5">
                         <h3 className="lastName">About</h3>
