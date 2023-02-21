@@ -2,10 +2,10 @@ import Image from 'next/image';
 
 const About = () => {
     return (
-        <section className="soa">
+        <section className="soa mb-5">
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-md-6 mt-5 d-flex justify-content-center">
+                    <div className="col-md-6 mt-5 text-center">
                         <Image src="/aboutme.jpg" height={500} width={320} alt="..."></Image>
                     </div>
                     <div className="text-start text-white mt-5 pt-5 col-md-4 mb-5 pb-5">
@@ -30,8 +30,6 @@ const About = () => {
                                 <Image className="ps-3 pt-3" src="/laravel.svg" width={60} height={60} alt="..."></Image>
                                 <Image className="ps-3 pt-3" src="/firebase.svg" width={50} height={50} alt="..."></Image>
                                 <Image className="ps-3 pt-3" src="/mysql.svg" width={60} height={60} alt="..."></Image>
-
-
                             </div>
                         </div>
                     </div>
