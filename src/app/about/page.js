@@ -21,7 +21,7 @@ const About = () => {
                             <div className="pt-4 pb-4">
                                 <Image className="ps-3" src="/html.svg" width="50" alt="..." />
                                 <Image className="ps-3" src="/css.svg" width="50" alt="..." />
-                                <Image className="ps-3" src="/tailwindcss.svg" width="100" alt="..."/ >
+                                <Image className="ps-3" src="/tailwindcss.svg" width="100" alt="..." />
                                 <Image className="ps-3" src="/bootstrap.svg" width="60" alt="..." />
                                 <Image className="ps-3" src="/javascript.svg" width="55" alt="..." />
                                 <Image className="ps-3" src="/php.svg" width="60" alt="..." />
