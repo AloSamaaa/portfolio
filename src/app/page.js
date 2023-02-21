@@ -1,13 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { Image } from 'next/image'
 
 export default function Home() {
 
  
   return (
     <section className="soa">
-      <div className="container pt-lg-5 mt-lg-5 pt-3 mt-3 mb-5 pb-5 mb-5">
+      <div className="container pt-lg-5 mt-lg-5 pt-3 mt-3 mb-5 pb-5">
         <div className="row">
           <div className="pt-lg-5 p-4 mt-lg-3 col-md-6 pe-5 me-5">
             <h3 className="fw-bold text-white">Gabriel Angelo <span className="lastName">D. Dayot</span></h3>
@@ -27,7 +26,7 @@ export default function Home() {
             <br />
           </div>
           <div className="col-md-4 d-none d-sm-block imgprof ps-5 ms-5">
-            <Image className="profile" src="/profile.jpeg" width="350px" alt="..."></Image>
+            <img className="profile" src="/profile.jpeg" width="350px"></img>
           </div>
         </div>
       </div>
