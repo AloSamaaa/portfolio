@@ -1,11 +1,13 @@
 html, body {
   height: 100%;
+  box-sizing: border-box;
 }
 
 body {
   background: radial-gradient(ellipse at bottom, #080a0e 0%, #090a0f 100%);
   background-size: cover;
   opacity: 0;
+  box-sizing: inherit;
   animation: fadeIn 2s ease-in-out forwards;
 }
 
@@ -16,11 +18,11 @@ body {
 @keyframes scrollIn {
   from{
     filter: blur(100%);
-    transform: translateX(-100%);
+    opacity: 0;
   }
   to{
     filter: blur(0);
-    transform: translateX(0);
+    opacity: 1;
   }
 }
 @keyframes fadeIn {
@@ -61,7 +63,6 @@ body {
   .navlink:hover::after{
     width: 19%;
   }
-
 }
 
 .card1 {
@@ -88,15 +89,6 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-@media (max-width: 767px) {
-  footer {
-    margin-top: 0px;
-    bottom: 0;
-    width: 100%;
-    margin-bottom: 100px;
-  }
-}
-
 hr {
   border: none;
   border-top: 3px solid #ffffff; /* set border width to 4px and color to #ccc */
@@ -113,12 +105,19 @@ hr {
   padding-top: 35px;
 }
 
-footer {
-  bottom: 0;
-  width: 100%;
-  margin-top: 8rem;
-}
-
 .fullname {
   margin-bottom: -1px;
+}
+
+.nameland {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }

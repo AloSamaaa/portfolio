@@ -23,7 +23,7 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav mx-auto ps-3">
+          <ul className="navbar-nav ms-auto pe-5 ps-3">
             <li className="nav-item">
               <Link href="/" passHref legacyBehavior>
                 <a className={`nav-link navlink ${router.pathname === '/' ? 'text-danger' : 'text-white'}`}>
