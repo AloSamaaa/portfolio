@@ -27,7 +27,7 @@ export default function Home() {
             <br />
           </div>
           <div className="col-md-4 d-none d-sm-block imgprof ps-5 ms-5">
-            <Image className="profile" src="/profile.jpeg" width="350px" alt="..."></Image>
+            <Image className="profile" src="/profile.jpeg" width={350} height={350} alt="..."></Image>
           </div>
         </div>
       </div>
