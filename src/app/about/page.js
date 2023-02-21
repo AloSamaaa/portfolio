@@ -13,7 +13,7 @@ const About = () => {
                         <div className="pb-5">
                             I&apos;m an experienced Full-stack web developer with strong attention to detail and efficient troubleshooting skills
                             . As a collaborative team player with effective communication abilities, I enjoy delivering high-quality products that
-                            meet user needs. Additionally, I'm eager to learn and explore new technologies.
+                            meet user needs. Additionally, I&apos;m eager to learn and explore new technologies.
                         </div>
 
                         <h3 className="lastName">Tech Stack</h3>
