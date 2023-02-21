@@ -1,3 +1,5 @@
+import { Image } from 'next/image';
+
 const About = () => {
     return (
         <section className="soa">
@@ -17,19 +19,17 @@ const About = () => {
                         <h3 className="lastName">Tech Stack</h3>
                         <div className="card">
                             <div className="pt-4 pb-4">
-                                <img className="ps-3" src="/html.svg" width="50"></img>
-                                <img className="ps-3" src="/css.svg" width="50"></img>
-                                <img className="ps-3" src="/tailwindcss.svg" width="100"></img>
-                                <img className="ps-3" src="/bootstrap.svg" width="60"></img>
-                                <img className="ps-3" src="/javascript.svg" width="55"></img>
-                                <img className="ps-3" src="/php.svg" width="60"></img>
-                                <img className="ps-3" src="/next.svg" width="60"></img>               
-                                <img className="ps-3 pt-3" src="/react.svg" width="60"></img>
-                                <img className="ps-3 pt-3" src="/laravel.svg" width="60"></img>
-                                <img className="ps-3 pt-3" src="/firebase.svg" width="50"></img>
-                                <img className="ps-3 pt-3" src="/mysql.svg" width="60"></img>
-
-
+                                <Image className="ps-3" src="/html.svg" width="50"/>
+                                <Image className="ps-3" src="/css.svg" width="50"/>
+                                <Image className="ps-3" src="/tailwindcss.svg" width="100"/>
+                                <Image className="ps-3" src="/bootstrap.svg" width="60"/>
+                                <Image className="ps-3" src="/javascript.svg" width="55"/>
+                                <Image className="ps-3" src="/php.svg" width="60"/>
+                                <Image className="ps-3" src="/next.svg" width="60"/>            
+                                <Image className="ps-3 pt-3" src="/react.svg" width="60"/>
+                                <Image className="ps-3 pt-3" src="/laravel.svg" width="60"/>
+                                <Image className="ps-3 pt-3" src="/firebase.svg" width="50"/>
+                                <Image className="ps-3 pt-3" src="/mysql.svg" width="60"/>
                             </div>
                         </div>
                     </div>

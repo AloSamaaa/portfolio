@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { Image } from 'next/image'
 
 export default function Home() {
 
@@ -26,7 +27,7 @@ export default function Home() {
             <br />
           </div>
           <div className="col-md-4 d-none d-sm-block imgprof ps-5 ms-5">
-            <img className="profile" src="/profile.jpeg" width="350px"></img>
+            <Image className="profile" src="/profile.jpeg" width="350px"></Image>
           </div>
         </div>
       </div>
