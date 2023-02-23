@@ -1717,3 +1717,7 @@
         box-shadow: 0 0 2vw 0.4vw yellow;
     }
 }
+
+.card{
+    background-color: #27282f !important;
+  }

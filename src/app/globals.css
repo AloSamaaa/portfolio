@@ -11,6 +11,21 @@ body {
   animation: fadeIn 2s ease-in-out forwards;
 }
 
+section{
+  min-height: 100vh;
+  min-height: 100dvh;
+
+  display: grid;
+  grid-template-rows: 
+    auto
+    1fr
+    auto;
+}
+
+.extra-content {
+  display: none;
+}
+
 .soa{
   animation: scrollIn 1.5s ease-in-out forwards;
 }
@@ -161,3 +176,8 @@ Image{
 .card-img-top:not(:hover) img {
   transform: scale(1);
 }
+
+
+
+
+

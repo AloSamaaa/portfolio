@@ -2,7 +2,7 @@ import './globals.css';
 import './bg.css';
 import Navbar from './navbar.js';
 import Footer from './footer.js';
-
+import Scroll from './scrolltotop.js';
 
 export default function RootLayout({ children }) {
   
@@ -35,9 +35,10 @@ export default function RootLayout({ children }) {
       <div className="firefly"></div>
       <div className="firefly"></div>
 
-      <Navbar/>
         
         {children}
+
+        <Scroll/>
 
       <Footer/>
         <script
