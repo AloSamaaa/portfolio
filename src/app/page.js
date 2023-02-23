@@ -53,7 +53,7 @@ export default function Home() {
               </div>
 
               <h3 className="lastName">Tech Stack</h3>
-              <div className="card">
+              <div className="card card1">
                 <div className="pt-2 pb-4">
                   <Image className="ps-3" src="/html.svg" width={50} height={50} alt="..."></Image>
                   <Image className="ps-3" src="/css.svg" width={50} height={50} alt="..."></Image>
