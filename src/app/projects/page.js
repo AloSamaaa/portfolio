@@ -11,7 +11,7 @@ const Projects = () => {
 
                     <div className="col-md-4">
                         <div className="card card1">
-                            <img src="gamefo.jpg" class="card-img-top" alt="..." />
+                            <Image src="/gamefo.jpg" class="card-img-top" width={1920} height={250} alt="..." />
                             <div className="card-body text-center">
                                 <a href="https://alosamaa.vercel.app/" target="_blank" className="btn button1">Live link</a>
                                 <a href="https://github.com/AloSamaaa/Major-project-1" target="_blank" className="btn button1 ms-5">Github repo</a>
@@ -21,17 +21,17 @@ const Projects = () => {
                     
                     <div className="col-md-4">
                         <div className="card card1">
-                            <img src="resortvillas.jpg" class="card-img-top" alt="..." />
+                            <Image src="/resortvillas.jpg" class="card-img-top" width={1920} height={250} alt="..." />
                             <div className="card-body text-center">
                                 <a href="https://resortvillas.vercel.app/" target="_blank" className="btn button1">Live link</a>
                                 <a href="https://github.com/WD29Group/resortvillas" target="_blank" className="btn button1 ms-5">Github repo</a>
                             </div>
                         </div>
-                    </div>
+                    </div>  
 
                     <div className="col-md-4">
                         <div className="card card1">
-                            <img src="dreamfields.jpg" class="card-img-top" alt="..." />
+                            <Image src="/dreamfields.jpg" class="card-img-top" width={1920} height={250} alt="..." />
                             <div className="card-body text-center">
                                 <a href="https://alosamaa.vercel.app/" target="_blank" className="btn button1">Live link</a>
                                 <a href="https://github.com/AloSamaaa/Major-project-1" target="_blank" className="btn button1 ms-5">Github repo</a>
