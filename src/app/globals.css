@@ -143,11 +143,11 @@ Image{
 }
 }
 
-.card1{
+.card6{
   background-color:#35394b;
 }
 
-.button1 {
+.button6 {
   background-color: #d4af37;
   color: #333;
   border: none;
@@ -157,7 +157,7 @@ Image{
   transition: background-color 0.2s ease-in-out;
 }
 
-.button1:hover {
+.button6:hover {
   background-color: #c19f30;
 }
 
