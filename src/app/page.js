@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Contact from './contactform.js';
 import Image from 'next/image';
 import Navbar from './navbar.js';
 import Link from 'next/link'
@@ -174,7 +175,7 @@ export default function Home() {
       </section>
 
       <section className="soa" id="contact">
-        
+        <Contact/>
       </section>
     </>
   )

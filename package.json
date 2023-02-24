@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@bakunya/react-masonry": "^0.0.5",
+    "@formspree/react": "^2.4.1",
     "@fortawesome/free-brands-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@next/font": "13.1.6",
