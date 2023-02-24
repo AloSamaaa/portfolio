@@ -12,7 +12,6 @@ export default function Home() {
 
   return (
     <>
-
       <section className="soa" id="home">
         <Navbar />
         <Landing />
@@ -22,7 +21,6 @@ export default function Home() {
         <About />
       </section>
 
-
       <section className="soa" id="projects">
         <Project />
       </section>
@@ -31,8 +29,8 @@ export default function Home() {
         <Contact />
       </section>
 
-      <Scroll/>
-      <Footer/>
+      <Scroll />
+      <Footer />
     </>
   )
 }

@@ -22,7 +22,7 @@ export default function ContactForm() {
                         <a className="atag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/gabriel-dayot-6a60071b2/"> <FontAwesomeIcon icon={faGithub} className="ps-2" width="30px" /> </a>
                     </div>
                     <div className="col-md-6">
-                        <h3 className="pb-4">Leave a Message</h3>
+                        <h3 className="pb-4 lastName">Leave a Message</h3>
                         <div className="alert alert-success" role="alert">
                             Thanks for the message!
                         </div>
