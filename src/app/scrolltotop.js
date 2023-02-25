@@ -29,7 +29,7 @@ const ScrollToTopButton = () => {
       className={`scroll-to-top ${showScroll ? "show-scroll" : ""}`}
       onClick={scrollTop}
     >
-      <FaArrowUp className="text-white" />
+      <FaArrowUp className="text-white ps-5" />
     </div>
   );
 };
